@@ -47,6 +47,7 @@ form.addEventListener('submit', (e) => {
   } else {
     iconEmail.classList.remove('error');
     smallEmail.classList.remove('error');
+    email.value = '';
   }
 
   // check if it is a valid Password

@@ -125,10 +125,10 @@ label img.icon.error {
   display: flex;
 }
 
-p small.firstname,
-p small.lastname,
-p small.email,
-p small.password {
+small.firstname,
+small.lastname,
+small.email,
+small.password {
   display: none;
   color: var(--red);
   font-size: 0.7rem;
@@ -137,10 +137,10 @@ p small.password {
   text-align: right;
 }
 
-p small.firstname.error,
-p small.lastname.error,
-p small.email.error,
-p small.password.error {
+small.firstname.error,
+small.lastname.error,
+small.email.error,
+small.password.error {
   display: flex;
   justify-content: flex-end;
 }
